@@ -136,10 +136,9 @@ Actual Churn           32                65
 ├── data/
 │   ├── raw/                 # Original CSV dataset
 │   └── processed/           # Train/Test processed CSVs
-├── notebooks/               # Jupyter notebooks detailing exploration & modeling
-│   ├── 1_data_exploration.ipynb
-│   └── 2_modeling_and_evaluation.ipynb
-├── src/                     # Python scripts for preprocess and modeling
+├── notebook/               # Jupyter notebooks detailing exploration & modeling
+│   ├── syriatel_churn.ipynb
+├── src/                     # Python scripts for pre-processing and modeling
 │   ├── preprocess.py        # Data cleaning & feature engineering
 │   └── modeling.py          # Model training & evaluation
 ├── README.md                # Project overview and instructions
